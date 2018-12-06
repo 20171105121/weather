@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114FFA3C21B8B021001F035F /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114FFA3B21B8B021001F035F /* ViewControllerExtension.swift */; };
+		114FFA4421B8BB3A001F035F /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114FFA4321B8BB3A001F035F /* GalleryViewController.swift */; };
 		116A6F5D21AF6A5000FB9273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A6F5C21AF6A5000FB9273 /* AppDelegate.swift */; };
 		116A6F5F21AF6A5000FB9273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A6F5E21AF6A5000FB9273 /* ViewController.swift */; };
 		116A6F6221AF6A5000FB9273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116A6F6021AF6A5000FB9273 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		114FFA3B21B8B021001F035F /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		114FFA4321B8BB3A001F035F /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		116A6F5921AF6A5000FB9273 /* weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116A6F5C21AF6A5000FB9273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		116A6F5E21AF6A5000FB9273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				116A6F6321AF6A5200FB9273 /* Assets.xcassets */,
 				116A6F6521AF6A5200FB9273 /* LaunchScreen.storyboard */,
 				116A6F6821AF6A5200FB9273 /* Info.plist */,
+				114FFA3B21B8B021001F035F /* ViewControllerExtension.swift */,
+				114FFA4321B8BB3A001F035F /* GalleryViewController.swift */,
 			);
 			path = weather;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				116A6F5F21AF6A5000FB9273 /* ViewController.swift in Sources */,
+				114FFA4421B8BB3A001F035F /* GalleryViewController.swift in Sources */,
 				116A6F5D21AF6A5000FB9273 /* AppDelegate.swift in Sources */,
+				114FFA3C21B8B021001F035F /* ViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
