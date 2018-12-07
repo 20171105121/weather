@@ -9,16 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+   
     
     @IBOutlet weak var twelve: UIPickerView!
-    let array = ["牛","鸡","狗","龙","马","猴","鼠","猪","兔","羊","蛇","虎"]
+    //@IBOutlet weak var onetwo: UIPickerView!
+    let array = ["牛","鸡","狗","龙","马","猴","鼠","猪","兔","羊","蛇","虎","白羊座","金牛座","双子座","巨蟹座","狮子座","处女座","天秤座","天蝎座","射手座","摩羯座","水瓶座","双鱼座"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
    
     twelve.dataSource = self
     twelve.delegate = self
+       
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "GoToGallery"{
@@ -49,18 +54,47 @@ class ViewController: UIViewController {
                 imageName = "snake"
             case 11:
                 imageName = "tiger"
-            default:
+            case 22:
+                imageName = "aquarius"
+            case 12:
+                imageName = "Aries"
+            case 19:
+                imageName = "Cancer"
+            case 21:
+                imageName = "Capricorn"
+            case 14:
+                imageName = "Gemini"
+            case 16:
+                imageName = "Leo"
+            case 18:
+                imageName = "Libra"
+            case 23:
+                imageName = "Pisces"
+            case 15:
+                imageName = "Scorpio"
+            case 20:
+                imageName = "shooter"
+            case 13:
+                imageName = "Taurus"
+            case 17:
+                imageName = "Virgo"
+           default:
                 imageName = nil
             }
             var vc = segue.destination as! GalleryViewController
             vc.imageName = imageName
     }
-}
-    @IBAction func close(segue: UIStoryboardSegue){
-        print("closed")
+        
     }
     
+    
     }
+    
+
+
+    
+
+ 
 
 
 

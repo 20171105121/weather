@@ -16,6 +16,7 @@
 		116A6F6721AF6A5200FB9273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116A6F6521AF6A5200FB9273 /* LaunchScreen.storyboard */; };
 		116A6F7221AF6A5200FB9273 /* weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A6F7121AF6A5200FB9273 /* weatherTests.swift */; };
 		116A6F7D21AF6A5200FB9273 /* weatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A6F7C21AF6A5200FB9273 /* weatherUITests.swift */; };
+		116DAA9521BA2EC700E044DE /* ConstellationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DAA9421BA2EC700E044DE /* ConstellationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		116A6F7821AF6A5200FB9273 /* weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		116A6F7C21AF6A5200FB9273 /* weatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherUITests.swift; sourceTree = "<group>"; };
 		116A6F7E21AF6A5200FB9273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116DAA9421BA2EC700E044DE /* ConstellationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				116A6F6821AF6A5200FB9273 /* Info.plist */,
 				114FFA3B21B8B021001F035F /* ViewControllerExtension.swift */,
 				114FFA4321B8BB3A001F035F /* GalleryViewController.swift */,
+				116DAA9421BA2EC700E044DE /* ConstellationViewController.swift */,
 			);
 			path = weather;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				116A6F5F21AF6A5000FB9273 /* ViewController.swift in Sources */,
+				116DAA9521BA2EC700E044DE /* ConstellationViewController.swift in Sources */,
 				114FFA4421B8BB3A001F035F /* GalleryViewController.swift in Sources */,
 				116A6F5D21AF6A5000FB9273 /* AppDelegate.swift in Sources */,
 				114FFA3C21B8B021001F035F /* ViewControllerExtension.swift in Sources */,
